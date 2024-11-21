@@ -115,7 +115,7 @@ Download USIs of filtered ReDU table as tsv file which can be used for batch pro
 
 
 !!! note
-  **GNPS2 is a shared resource** where the sceintific community can gain access to computational resources free of cost. For this reason batch processing of thousands if files via the downstream tooling described below (especially MassQL and Molecular Networking) will likely fail due to insufficient resources. However, if you still wish to do so you can always download raw data as described below and clone the [Github Molecular Networking repository](https://github.com/Wang-Bioinformatics-Lab/Classical_Networking_Workflow) or [Github MassQL repository](https://github.com/Wang-Bioinformatics-Lab/MassQL_Workflow) to on your local computer. 
+    **GNPS2 is a shared resource** where the sceintific community can gain access to computational resources free of cost. For this reason batch processing of thousands of files via the downstream tooling described below (especially MassQL and Molecular Networking) will likely fail due to insufficient resources. However, if you still wish to do so you can always download raw data as described below and clone the [Github Molecular Networking repository](https://github.com/Wang-Bioinformatics-Lab/Classical_Networking_Workflow) or [Github MassQL repository](https://github.com/Wang-Bioinformatics-Lab/MassQL_Workflow) to on your local computer. 
 
 ### Download Complete Dataset
 
@@ -127,7 +127,7 @@ To download the entire ReDU dataset click "Download Complete ReDU"** found in th
 After selecting files via the row checkboxes you can view the selected raw data files directly in your browser or download them to your PC by chlicking the "View/Download Raw Data in Browser" button. This will redirect to the [GNPS dashboard](https://dashboard.gnps2.org/) input page with the USIs already populated.
 
 !!! note
-  **Raw data download**: If you wish to download raw data, scroll down to the 'File Summaries' section of the Dashboard and click the download buttons. 
+    **Raw data download**: If you wish to download raw data, scroll down to the 'File Summaries' section of the Dashboard and click the download buttons. 
 
 
 ## Downstream Tooling
@@ -137,14 +137,14 @@ After selecting files via the row checkboxes you can view the selected raw data 
 Generate Molecular Networks and molecule annotations for selected files.
 
 !!! note
-  **Batch processing**: If you wish to process more files than can be selected on a single page, download the (filtered) ReDU table, as described above, or the filtered USIs (via the "USIs for Batch Processing/Download" button) and copy the USIs directly into the text field of the [workflow](https://gnps2.org/workflowinput?workflowname=classical_networking_workflow).
+    **Batch processing**: If you wish to process more files than can be selected on a single page, download the (filtered) ReDU table, as described above, or the filtered USIs (via the "USIs for Batch Processing/Download" button) and copy the USIs directly into the text field of the [workflow](https://gnps2.org/workflowinput?workflowname=classical_networking_workflow).
 
 ### MassQL/Fragmentation Rule Search
 
 Query mass spectrometry data using [MassQL](https://mwang87.github.io/MassQueryLanguage_Documentation/).
 
 !!! note
-  **Batch processing**: If you wish to process more files than can be selected on a single page, download the (filtered) ReDU table, as described above, or the filtered USIs (via the "USIs for Batch Processing/Download" button) and copy the USIs directly into the text field of the [workflow](https://gnps2.org/workflowinput?workflowname=massql_workflow).
+    **Batch processing**: If you wish to process more files than can be selected on a single page, download the (filtered) ReDU table, as described above, or the filtered USIs (via the "USIs for Batch Processing/Download" button) and copy the USIs directly into the text field of the [workflow](https://gnps2.org/workflowinput?workflowname=massql_workflow).
 
 ## Additional Features
 
